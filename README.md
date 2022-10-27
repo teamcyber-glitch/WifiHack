@@ -1,9 +1,9 @@
 #made by Mr. E-CYBER TEAM
 #gunakan dengan bijak
 
-pkg update
+pkg update && pkg upgrade -y
 
-pkg upgrade
+pkg install git
 
 pkg install python
 
