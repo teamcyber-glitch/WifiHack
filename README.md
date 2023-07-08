@@ -3,13 +3,15 @@
 
 ## Instalasi
 
-$ termux-setup-storage (baru install termux)
+termux-setup-storage (baru install termux)
 
-$ pkg update && pkg upgrade -y
+pkg update && pkg upgrade -y
 
-$ pkg install python
+apt-get update
 
-$ pkg install git
+pkg install python && pkg install python2 && pkg install python3 -y
+
+pkg install git
 
 $ git clone https://github.com/teamcyber-glitch/WifiHack
 
